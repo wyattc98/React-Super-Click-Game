@@ -1,0 +1,20 @@
+.header {
+  background-image: url('https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') !important; 
+    height: 370px;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+    font-size: 18px;
+  }
+
+  .header h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+  }
+  
+  @media (min-width: 576px) {
+    .banner {
+      font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    }
+  }
